@@ -22,6 +22,7 @@ function draw() {
   //style for ellipse
   noStroke();
   // put drawing code here to run in loop
+  fill(255,186,255)
   ellipse(300,500,150,150);
 
 
