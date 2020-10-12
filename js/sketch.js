@@ -2,7 +2,7 @@ function setup() {
   // put setup code here
 createCanvas(windowWidth,windowHeight);
 
-background(180,60,220);
+background(153,238,255);
 
 rectMode(CENTER);
 
@@ -37,7 +37,15 @@ strokeWeight(20);
    fill(50,30,120);
   triangle(1200,50,1300,600,950,400);
 
+
+  //style for point
+  fill(120);
+  stroke(40,200,100);
+  strokeWeight(10);
+  point(mouseX,mouseY);
+
   print(mouseX);
 
+  line(30,200,800,600);
 
 }
