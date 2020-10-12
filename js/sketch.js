@@ -37,7 +37,7 @@ strokeWeight(20);
    fill(50,30,120);
   triangle(1200,50,1300,600,950,400);
 
-  print(mouse);
+  print(mouseX);
 
 
 }
