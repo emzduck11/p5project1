@@ -2,7 +2,7 @@ function setup() {
   // put setup code here
 createCanvas(windowWidth,windowHeight);
 
-background(180,60,220)
+background(180,60,220);
 
 rectMode(CENTER);
 
@@ -10,9 +10,10 @@ rectMode(CENTER);
 }
 
 function draw() {
+  smooth();
   fill(120);
   stroke(40,200,100);
-  strokeweight(10);
+  strokeWeight(10);
   point(500,300);
   nostroke()
   // put drawing code here to run in loop
@@ -23,7 +24,7 @@ function draw() {
 
 
   stroke(40,200,100);
-  strokeweight(20);
+  strokeWeight(20);
    fill(50,30,120);
   triangle(1200,50,1300,600,950,400);
 
