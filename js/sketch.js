@@ -2,7 +2,7 @@ function setup() {
   // put setup code here
 createCanvas(windowWidth,windowHeight);
 
-background(random(255), random(255), random(255))
+//background(random(255), random(255), random(255))
 
 rectMode(CENTER);
 print(random(300));
@@ -11,6 +11,7 @@ print(random(300));
 }
 
 function draw() {
+  background(random(255), random(255), random(255))
   smooth();
 
   //style for point
