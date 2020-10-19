@@ -11,7 +11,7 @@ print(random(300));
 }
 
 function draw() {
-  
+
   smooth();
 
   //style for point
@@ -24,7 +24,7 @@ function draw() {
   //style for ellipse
   noStroke();
   // put drawing code here to run in loop
-  fill(random(255), random(255), random(255)
+  fill(30,100,50)
   ellipse(300,500,150,150);
 
   //style for ellipse
