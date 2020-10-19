@@ -1,3 +1,6 @@
+let ellipseX= 300;
+let ellipseY= 500;
+
 function setup() {
   // put setup code here
 createCanvas(windowWidth,windowHeight);
@@ -5,7 +8,7 @@ createCanvas(windowWidth,windowHeight);
 background(random(255), random(255), random(255))
 
 rectMode(CENTER);
-print(random(300));
+print(ellipseX);
 
 
 }
@@ -25,7 +28,7 @@ function draw() {
   noStroke();
   // put drawing code here to run in loop
   fill(30,100,50)
-  ellipse(300,500,150,150);
+  ellipse(ellipseX,ellipseY,150,150);
 
   //style for ellipse
   noStroke();
