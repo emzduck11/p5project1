@@ -11,7 +11,7 @@ print(random(300));
 }
 
 function draw() {
-  //background(random(255), random(255), random(255))
+  
   smooth();
 
   //style for point
