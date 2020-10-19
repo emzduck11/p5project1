@@ -2,7 +2,7 @@ function setup() {
   // put setup code here
 createCanvas(windowWidth,windowHeight);
 
-background(153,238,255);
+background(random(255), random(255), random(255))
 
 rectMode(CENTER);
 print(random(300));
