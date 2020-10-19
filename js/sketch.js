@@ -5,6 +5,7 @@ createCanvas(windowWidth,windowHeight);
 background(153,238,255);
 
 rectMode(CENTER);
+print(random(300));
 
 
 }
@@ -104,7 +105,7 @@ function draw() {
   strokeWeight(50);
   point(mouseX,mouseY);
 
-  print(mouseX);
+
 
   //line(30,200,800,600);
 
