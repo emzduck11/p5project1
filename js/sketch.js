@@ -1,11 +1,31 @@
 let ellipseX= 300;
 let ellipseY= 500;
 
+let cart;
+let sourworms;
+let kombucha;
+let icecream;
+let chips;
+
+
+
+function preload(){
+  cart = loadImage("images/cart.png" );
+  sourworms = loadImage("images/sourworms.png" );
+  kombucha = loadImage ( "images/kombucha.png" );
+  icecream = loadImage ("images/icecream.png"  );
+  chips= loadImage ("images/chips.png"  ) ;
+
+
+}
+
 function setup() {
   // put setup code here
 createCanvas(windowWidth,windowHeight);
 
 background(random(255), random(255), random(255))
+imageMode(CENTER);
+
 
 rectMode(CENTER);
 print(ellipseX);
@@ -14,7 +34,8 @@ print(ellipseX);
 }
 
 function draw() {
-
+background(180,40,130);
+image(cart, windowWidth/2, windowHeight/2);
   smooth();
 
   //style for point
