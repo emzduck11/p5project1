@@ -32,7 +32,7 @@ rectMode(CENTER);
 function draw() {
 background(180,40,130);
 
-image(cart, windowWidth/2, windowHeight/2,100,100);
+image(cart, windowWidth/2, windowHeight/2,300,300);
 
   smooth();
   //style for point
