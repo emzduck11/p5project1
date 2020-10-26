@@ -1,4 +1,4 @@
-let pointX= 300;
+let pointX= 100;
 let pointY= 200;
 
 let cart;
@@ -32,7 +32,7 @@ rectMode(CENTER);
 function draw() {
 background(180,40,130);
 
-image(cart, windowWidth/4, windowHeight/4);
+image(cart, windowWidth/2, windowHeight/2,100,100);
 
   smooth();
   //style for point
