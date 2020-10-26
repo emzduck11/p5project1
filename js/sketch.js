@@ -6,7 +6,14 @@ let sourworms;
 let kombucha;
 let icecream;
 let chips;
-
+let avocado;
+let bananas;
+let bread;
+let burritos;
+let eggs;
+let milk;
+let oats;
+let strawberries;
 
 
 function preload(){
@@ -15,6 +22,14 @@ function preload(){
   kombucha = loadImage ( "js/kombucha.png" );
   icecream = loadImage ("js/icecream.png"  );
   chips= loadImage ("js/chips.png"  ) ;
+  avocado= loadImage("js/avocado.png" );
+  bananas= loadImage("js/bananas.png" );
+  bread= loadImage("js/bread.png" );
+  burritos= loadImage("js/burritos.png" );
+  eggs=loadImage("js/eggs.png" );
+  milk=loadImage("js/milk.png" );
+  oats=loadImage("js/oats.png" );
+  strawberries=loadImage("js/strawberries.png" );
 
 
 }
@@ -39,14 +54,13 @@ if(mouseX> windowWidth/2){
 }
 image(cart, windowWidth/2, windowHeight/2,300,300);
 image(sourworms,windowWidth/5,windowHeight/5,75,100);
+image(kombucha,windowWidth/5,windowHeight/5,75,200);
+
+
+
+
+
   smooth();
-  //style for point
-  fill(120);
-  stroke(40,200,100);
-  strokeWeight(10);
-  point(mouseX,mouseY);
-
-
   //style for ellipse
   noStroke();
   // put drawing code here to run in loop
