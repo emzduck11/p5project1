@@ -1,5 +1,5 @@
-let ellipseX= 300;
-let ellipseY= 500;
+let pointX= 300;
+let pointY= 200;
 
 let cart;
 let sourworms;
@@ -24,16 +24,17 @@ function setup() {
 createCanvas(windowWidth,windowHeight);
 imageMode(CENTER);
 rectMode(CENTER);
-print(ellipseX);
+//print(ellipseX);
 
 
 }
 
 function draw() {
 background(180,40,130);
-image(cart, windowWidth/2, windowHeight/2);
-  smooth();
 
+image(cart, windowWidth/2, windowHeight/2);
+
+  smooth();
   //style for point
   fill(120);
   stroke(40,200,100);
