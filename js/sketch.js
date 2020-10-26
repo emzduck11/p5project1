@@ -10,7 +10,7 @@ let chips;
 
 
 function preload(){
-  cart = loadImage("images/cart.png" );
+  cart = loadImage("js/cart.png" );
   sourworms = loadImage("images/sourworms.png" );
   kombucha = loadImage ( "images/kombucha.png" );
   icecream = loadImage ("images/icecream.png"  );
