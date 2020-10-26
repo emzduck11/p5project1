@@ -33,7 +33,7 @@ function draw() {
 background(180,40,130);
 
 image(cart, windowWidth/2, windowHeight/2,300,300);
-
+image(sourworms,windowWidth/5,windowHeight/5,200,200);
   smooth();
   //style for point
   fill(120);
