@@ -11,10 +11,10 @@ let chips;
 
 function preload(){
   cart = loadImage("js/cart.png" );
-  sourworms = loadImage("images/sourworms.png" );
-  kombucha = loadImage ( "images/kombucha.png" );
-  icecream = loadImage ("images/icecream.png"  );
-  chips= loadImage ("images/chips.png"  ) ;
+  sourworms = loadImage("js/sourworms.png" );
+  kombucha = loadImage ( "js/kombucha.png" );
+  icecream = loadImage ("js/icecream.png"  );
+  chips= loadImage ("js/chips.png"  ) ;
 
 
 }
