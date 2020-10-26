@@ -21,7 +21,7 @@ function preload(){
 
 function setup() {
   // put setup code here
-createCanvas(windowWidth,windowHeight);
+createCanvas(500,500);
 imageMode(CENTER);
 rectMode(CENTER);
 //print(ellipseX);
