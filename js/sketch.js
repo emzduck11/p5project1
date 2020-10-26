@@ -31,7 +31,12 @@ rectMode(CENTER);
 
 function draw() {
 background(180,40,130);
-
+if(mouseX> windowWidth/2){
+  background(255,0,0);
+} else{
+  background(0,0,255)
+  
+}
 image(cart, windowWidth/2, windowHeight/2,300,300);
 image(sourworms,windowWidth/5,windowHeight/5,75,100);
   smooth();
