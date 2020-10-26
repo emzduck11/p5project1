@@ -21,7 +21,7 @@ function preload(){
 
 function setup() {
   // put setup code here
-createCanvas(500,500);
+createCanvas(windowWidth,windowHeight);
 imageMode(CENTER);
 rectMode(CENTER);
 //print(ellipseX);
@@ -32,7 +32,7 @@ rectMode(CENTER);
 function draw() {
 background(180,40,130);
 
-image(cart, windowWidth/2, windowHeight/2);
+image(cart, windowWidth/4, windowHeight/4);
 
   smooth();
   //style for point
