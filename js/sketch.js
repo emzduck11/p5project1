@@ -17,19 +17,19 @@ let strawberries;
 
 
 function preload(){
-  cart = loadImage("js/cart.png" );
-  sourworms = loadImage("js/sourworms.png" );
-  kombucha = loadImage ( "js/kombucha.png" );
-  icecream = loadImage ("js/icecream.png"  );
-  chips= loadImage ("js/chips.png"  ) ;
-  avocado= loadImage("js/avocado.png" );
-  bananas= loadImage("js/bananas.png" );
-  bread= loadImage("js/bread.png" );
-  burritos= loadImage("js/burritos.png" );
-  eggs=loadImage("js/eggs.png" );
-  milk=loadImage("js/milk.png" );
-  oats=loadImage("js/oats.png" );
-  strawberries=loadImage("js/strawberries.png" );
+  cart = loadImage("js/images/cart.png" );
+  sourworms = loadImage("js/images/sourworms.png" );
+  kombucha = loadImage ( "js/images/kombucha.png" );
+  icecream = loadImage ("js/images/icecream.png"  );
+  chips= loadImage ("js/images/chips.png"  ) ;
+  avocado= loadImage("js/images/avocado.png" );
+  bananas= loadImage("js/images/bananas.png" );
+  bread= loadImage("js/images/bread.png" );
+  burritos= loadImage("js/images/burritos.png" );
+  eggs=loadImage("js/images/eggs.png" );
+  milk=loadImage("js/images/milk.png" );
+  oats=loadImage("js/images/oats.png" );
+  strawberries=loadImage("js/images/strawberries.png" );
 
 
 }
