@@ -50,22 +50,22 @@ function setup() {
 function draw() {
 background(300,50,120);
 
-image(cart1, windowWidth/2,windowHeight/2,600,600)
-image (avocado,windowWidth/5,windowHeight/2,300,400)
-image(bread, windowWidth/2,windowHeight/5,400,400)
-image(bananas, windowWidth/4,windowHeight/2,400,400)
-image(burritos, windowWidth/6,windowHeight/2,400,400)
-image(chips, windowWidth/2,windowHeight/6,400,400)
-image(eggs, windowWidth/4,windowHeight/2,400,400)
-image(icecream, windowWidth/2,windowHeight/2,400,400)
-image(kombucha, windowWidth/2,windowHeight/2,400,400)
-image(milk, windowWidth/2,windowHeight/2,400,400)
-image(oats, windowWidth/2,windowHeight/2,400,400)
-image(sourworms, windowWidth/2,windowHeight/2,400,400)
-image(strawberries, windowWidth/2,windowHeight/2,400,400)
+image(cart1, windowWidth/2,windowHeight/2,300,300)
+image (avocado,windowWidth/8,windowHeight/8,100,100)
+image(bread, windowWidth/8,windowHeight/3.5,100,100)
+image(bananas, windowWidth/3.5,windowHeight/8,50,50)
+image(burritos, windowWidth/6,windowHeight/2,50,50)
+image(chips, windowWidth/2,windowHeight/6,50,50)
+image(eggs, windowWidth/4,windowHeight/2,50,50)
+image(icecream, windowWidth/2,windowHeight/2,50,50)
+image(kombucha, windowWidth/2,windowHeight/2,50,50)
+image(milk, windowWidth/2,windowHeight/2,50,50)
+image(oats, windowWidth/2,windowHeight/2,50,50)
+image(sourworms, windowWidth/2,windowHeight/2,50,50)
+image(strawberries, windowWidth/2,windowHeight/2,50,50)
 }
 
-if(dist(image (avocado,windowWidth/5,windowHeight/2,300,400))<50){
+if(dist(windowWidth/8,windowHeight/8,80,80)<50){
 text(" healthy",200,300);
 }
 if (dist(image(bread, windowWidth/2,windowHeight/5,400,400))<50){
