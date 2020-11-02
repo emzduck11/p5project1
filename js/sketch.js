@@ -28,7 +28,7 @@ function preload(){
   burritos= loadImage("js/images/burritos.png" );
   eggs=loadImage("js/images/eggs.png" );
   milk=loadImage("js/images/milk.png" );
-  oats=loadImage("js/images/oats.png" );
+  oats=loadImage("js/oats.png" );
   strawberries=loadImage("js/images/strawberries.png" );
 
 
