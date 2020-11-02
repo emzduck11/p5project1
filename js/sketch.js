@@ -57,7 +57,7 @@ image(cart, windowWidth/2, windowHeight/2,300,300);
 image(sourworms,windowWidth/5,windowHeight/5,75,100);
 image(kombucha,windowWidth/2,windowHeight/2,75,100);
 
-
+}
 
 
 
