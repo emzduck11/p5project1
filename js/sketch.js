@@ -47,6 +47,17 @@ function setup() {
 function draw() {
 background(300,50,120);
 
-image(cart1, windowWidth/2,windowHeight/2)
-
+image(cart1, windowWidth/2,windowHeight/2,400,400)
+image (avocado,windowWidth/5,windowHeight/2,300,400)
+image(bread, windowWidth/2,windowHeight/5,400,400)
+image(bananas, windowWidth/4,windowHeight/2,400,400)
+image(burritos, windowWidth/6,windowHeight/2,400,400)
+image(chips, windowWidth/2,windowHeight/6,400,400)
+image(eggs, windowWidth/4,windowHeight/2,400,400)
+image(icecream, windowWidth/2,windowHeight/2,400,400)
+image(kombucha, windowWidth/2,windowHeight/2,400,400)
+image(milk, windowWidth/2,windowHeight/2,400,400)
+image(oats, windowWidth/2,windowHeight/2,400,400)
+image(sourworms, windowWidth/2,windowHeight/2,400,400)
+image(strawberries, windowWidth/2,windowHeight/2,400,400)
 }
