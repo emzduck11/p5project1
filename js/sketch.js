@@ -151,7 +151,7 @@ image(kombucha,windowWidth/2,windowHeight/2,75,100);
 
   //line(30,200,800,600);
 
-}
+
 function windowResized( ){
   resizeCanvas(windowWidth,windowHeight);
 }
