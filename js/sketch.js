@@ -1,5 +1,6 @@
 
 
+
 let ellipseX= 300
 let ellipsY= 200
 
@@ -72,6 +73,7 @@ peanutbutter= loadImage("images/peanutbutter.png");
 scooby= loadImage("images/scooby.png");
 
 }
+
 function setup() {
 
   createCanvas(windowWidth,windowHeight);
@@ -85,7 +87,7 @@ function setup() {
 function draw() {
 background(300,50,120);
 
-//image(cart1, windowWidth/2,windowHeight/2,300,300)
+image(cart1, windowWidth/2,windowHeight/2,300,300)
 image (avocado,windowWidth/8,windowHeight/8,120,120)
 image(bread, windowWidth/8,windowHeight/2.99,160,170)
 image(bananas, windowWidth/3.25,windowHeight/8,100,100)
@@ -115,9 +117,10 @@ image(ketchup, windowWidth/1.1,windowHeight/1.1,70,130)
 image(strawberries, windowWidth/2,windowHeight/2.99,125,100)
 
 print(dist(mouseX,mouseY,windowWidth/8,windowHeight/8));
-}
+
 if (dist(mouseX,mouseY,windowWidth/8,windowHeight/8) < 50){
   text("unhealthy",120,120);
+
 }
 if (dist(mouseX,mouseY, windowWidth/4,windowHeight/2)<50){
   text("healthy",600,600);
@@ -131,13 +134,10 @@ if (dist(mouseX,mouseY, windowWidth/2,windowHeight/6)<50){
 if (dist(mouseX,mouseY, windowWidth/4,windowHeight/2)<50){
   text("healthy",50,50)
 }
-}
-
-
-
 
 
 
 function windowResized(){
   resizeCanvas(windowWidth,windowHeight);
+}
 }
