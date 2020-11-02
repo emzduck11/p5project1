@@ -20,8 +20,8 @@ let strawberries;
 
 
 function preload(){
-  cart = loadImage("images/cart.png" );
-  sourworms = loadImage("images/sourworms.png" );
+  cart = loadImage("../images/cart.png" );
+  sourworms = loadImage("../images/sourworms.png" );
   kombucha = loadImage ( "images/kombucha.png" );
   icecream = loadImage ("images/icecream.png"  );
   chips= loadImage ("images/chips.png"  ) ;
