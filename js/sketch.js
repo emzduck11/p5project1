@@ -116,11 +116,9 @@ image(ketchup, windowWidth/1.1,windowHeight/1.1,70,130)
 image(strawberries, windowWidth/2,windowHeight/2.99,125,100)
 }
 
+if (dist(mouseX,mouseY,windowWidth/8,windowHeight/8) < 50){
+  text("unhealthy",120,120);
 
-
-if (dist(mouseX,mouseY,windowWidth/8,windowHeight/8))<50){
-  text("unhealthy",500,400)
-}
 
 }
 if (dist(image(bananas, windowWidth/4,windowHeight/2,400,400))<50){
