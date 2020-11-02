@@ -65,24 +65,23 @@ image(sourworms, windowWidth/2,windowHeight/2,400,400)
 image(strawberries, windowWidth/2,windowHeight/2,400,400)
 }
 
-if(dist(image (avocado,windowWidth/5,windowHeight/2,300,400)
-)<50{
+if(dist(image (avocado,windowWidth/5,windowHeight/2,300,400))<50){
 text(" healthy",200,300);
 }
-if (dist(image(bread, windowWidth/2,windowHeight/5,400,400))<50{
+if (dist(image(bread, windowWidth/2,windowHeight/5,400,400))<50){
   text ("unhealthy",500,400);
 
 }
-if (dist(image(bananas, windowWidth/4,windowHeight/2,400,400))<50{
+if (dist(image(bananas, windowWidth/4,windowHeight/2,400,400))<50){
   text("healthy",600,600);
 }
-if (dist(image(burritos, windowWidth/6,windowHeight/2,400,400))<50{
+if (dist(image(burritos, windowWidth/6,windowHeight/2,400,400))<50){
   text("unhealthy",700,700);
 }
-if (dist(image(chips, windowWidth/2,windowHeight/6,400,400))<50{
+if (dist(image(chips, windowWidth/2,windowHeight/6,400,400))<50){
   text("unhealthy",100,100);
 }
-if (dist(image(eggs, windowWidth/4,windowHeight/2,400,400))<50{
+if (dist(image(eggs, windowWidth/4,windowHeight/2,400,400))<50){
   text("healthy",50,50)
 }
 
