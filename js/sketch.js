@@ -144,5 +144,3 @@ image(kombucha,windowWidth/2,windowHeight/2,75,100);
 
 function windowResized( ){
   resizeCanvas(windowWidth,windowHeight);
-
-}
