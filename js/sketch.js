@@ -1,3 +1,6 @@
+let ellipseX=0;
+let ellipsY=0;
+
 let pointX= 100;
 let pointY= 200;
 
@@ -17,19 +20,19 @@ let strawberries;
 
 
 function preload(){
-  cart = loadImage("js/images/cart.png" );
-  sourworms = loadImage("js/images/sourworms.png" );
-  kombucha = loadImage ( "js/images/kombucha.png" );
-  icecream = loadImage ("js/images/icecream.png"  );
-  chips= loadImage ("js/images/chips.png"  ) ;
-  avocado= loadImage("js/images/avocado.png" );
-  bananas= loadImage("js/images/bananas.png" );
-  bread= loadImage("js/images/bread.png" );
-  burritos= loadImage("js/images/burritos.png" );
-  eggs=loadImage("js/images/eggs.png" );
-  milk=loadImage("js/images/milk.png" );
-  oats=loadImage("js/images/oats.png" );
-  strawberries=loadImage("js/images/strawberries.png" );
+  cart = loadImage("images/cart.png" );
+  sourworms = loadImage("images/sourworms.png" );
+  kombucha = loadImage ( "images/kombucha.png" );
+  icecream = loadImage ("images/icecream.png"  );
+  chips= loadImage ("images/chips.png"  ) ;
+  avocado= loadImage("images/avocado.png" );
+  bananas= loadImage("images/bananas.png" );
+  bread= loadImage("images/bread.png" );
+  burritos= loadImage("images/burritos.png" );
+  eggs=loadImage("images/eggs.png" );
+  milk=loadImage("images/milk.png" );
+  oats=loadImage("images/oats.png" );
+  strawberries=loadImage("images/strawberries.png" );
 
 
 }
