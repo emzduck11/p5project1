@@ -4,10 +4,10 @@
 //let pointX= 100;
 //let pointY= 200;
 
-//let cart;
-//let sourworms;
-//let kombucha;
-//let icecream;
+let cart;
+let sourworms;
+let kombucha;
+let icecream;
 //let chips;
 //let avocado;
 //let bananas;
@@ -20,8 +20,8 @@
 
 
 function preload(){
-  cart = loadImage("/images/cart.png" );
-  sourworms = loadImage("/images/sourworms.png" );
+  cart = loadImage("images/cart.png" );
+  sourworms = loadImage("images/sourworms.png" );
   kombucha = loadImage ( "images/kombucha.png" );
   icecream = loadImage ("images/icecream.png"  );
 
@@ -144,4 +144,5 @@ image(kombucha,windowWidth/2,windowHeight/2,75,100);
 
 function windowResized( ){
   resizeCanvas(windowWidth,windowHeight);
+
 }
