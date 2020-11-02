@@ -28,7 +28,7 @@ function preload(){
   burritos= loadImage("js/images/burritos.png" );
   eggs=loadImage("js/images/eggs.png" );
   milk=loadImage("js/images/milk.png" );
-  oats=loadImage("images/oats.png" );
+  oats=loadImage("js/images/oats.png" );
   strawberries=loadImage("js/images/strawberries.png" );
 
 
@@ -39,13 +39,15 @@ function setup() {
 createCanvas(windowWidth,windowHeight);
 imageMode(CENTER);
 rectMode(CENTER);
-//print(ellipseX);
+
+ellipseX = random( ellipseX,windowWidth);
+ellipseY= random(ellipsY,windowHeight);
 
 
 }
 
 function draw() {
-
+background(180,40,130)
 
 }
 image(cart, windowWidth/2, windowHeight/2,300,300);
