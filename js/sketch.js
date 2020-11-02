@@ -5,7 +5,7 @@ let cart1;
 
 
 function preload(){
-  cart= loadImage("images/cart1.png");
+  cart1= loadImage("images/cart1.png");
 //  sourworms= loadImage("images/sourworms.png");
   //strawberries= loadImage("images/strawberries.png");
 }
