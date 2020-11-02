@@ -17,6 +17,26 @@ let milk;
 let oats;
 let sourworms;
 let strawberries;
+let alfedo;
+let beans;
+let broccoli;
+let butter;
+let carrots;
+let cashews;
+let chicken;
+let cinnamonbread;
+let coffee;
+let coke;
+let cucumber;
+let granola;
+let honey;
+let hummus;
+let ketchup;
+let pasta;
+let peanutbutter;
+let scooby;
+
+
 
 
 function preload(){
@@ -33,7 +53,24 @@ milk= loadImage("images/milk.png");
 oats= loadImage("images/oats.png");
 sourworms= loadImage("images/sourworms.png");
 strawberries= loadImage("images/strawberries.png");
-
+alfedo= loadImage("images/alfedo.png");
+beans= loadImage("images/beans.png");
+broccoli= loadImage("images/broccoli.png");
+butter= loadImage("images/butter.png");
+carrots= loadImage("images/carrots.png");
+cashews= loadImage("images/cashews.png");
+chicken= loadImage("images/chicken.png");
+cinnamonbread= loadImage("images/cinnamonbread.png");
+coffee= loadImage("images/coffee.png");
+coke= loadImage("images/coke.png");
+cucumber= loadImage("images/cucumber.png");
+granola= loadImage("images/granola.png");
+honey= loadImage("images/honey.png");
+hummus= loadImage("images/hummus.png");
+ketchup= loadImage("images/ketchup.png");
+pasta= loadImage("images/pasta.png");
+peanutbutter= loadImage("images/peanutbutter.png");
+scooby= loadImage("images/scooby.png");
 
 }
 function setup() {
@@ -51,18 +88,18 @@ function draw() {
 background(300,50,120);
 
 image(cart1, windowWidth/2,windowHeight/2,300,300)
-image (avocado,windowWidth/8,windowHeight/8,100,100)
-image(bread, windowWidth/8,windowHeight/3.5,100,100)
-image(bananas, windowWidth/3.5,windowHeight/8,50,50)
-image(burritos, windowWidth/6,windowHeight/2,50,50)
-image(chips, windowWidth/2,windowHeight/6,50,50)
-image(eggs, windowWidth/4,windowHeight/2,50,50)
-image(icecream, windowWidth/2,windowHeight/2,50,50)
-image(kombucha, windowWidth/2,windowHeight/2,50,50)
-image(milk, windowWidth/2,windowHeight/2,50,50)
-image(oats, windowWidth/2,windowHeight/2,50,50)
-image(sourworms, windowWidth/2,windowHeight/2,50,50)
-image(strawberries, windowWidth/2,windowHeight/2,50,50)
+image (avocado,windowWidth/8,windowHeight/8,120,120)
+image(bread, windowWidth/8,windowHeight/2.99,160,170)
+image(bananas, windowWidth/3.25,windowHeight/8,100,100)
+image(burritos, windowWidth/8,windowHeight/1.9,90,90)
+image(chips, windowWidth/2,windowHeight/8,90,100)
+image(eggs, windowWidth/3.25,windowHeight/1.9,130,100)
+image(icecream, windowWidth/3.25,windowHeight/2.99,90,110)
+image(kombucha, windowWidth/8,windowHeight/1.4,110,140)
+image(milk, windowWidth/8,windowHeight/1.1,110,110)
+image(oats, windowWidth/3.25,windowHeight/1.1,60,130)
+image(sourworms, windowWidth/3.25,windowHeight/1.4,80,110)
+image(strawberries, windowWidth/2,windowHeight/2.99,125,100)
 }
 
 if(dist(windowWidth/8,windowHeight/8,80,80)<50){
