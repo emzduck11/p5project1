@@ -117,7 +117,9 @@ image(ketchup, windowWidth/1.1,windowHeight/1.1,70,130)
 image(strawberries, windowWidth/2,windowHeight/2.99,125,100)
 
 print(dist(mouseX,mouseY,windowWidth/8,windowHeight/8));
-
+if (mouseX < 50 && mouseY < 50) {
+  cursor("images/cart.png");
+  } 
 textSize(200);
 textAlign(CENTER);
 if (dist(mouseX,mouseY,windowWidth/8,windowHeight/8) < 50){
@@ -128,7 +130,7 @@ if (dist(mouseX,mouseY, windowWidth/8,windowHeight/2.99)<50){
   text("healthy",700,400);
 }
 if (dist(mouseX,mouseY,windowWidth/3.25,windowHeight/8)<50){
-  text("unhealthy",700,400);
+  text("healthy",700,400);
 }
 if (dist(mouseX,mouseY, windowWidth/8,windowHeight/1.9)<50){
   text("unhealthy",700,400);
@@ -143,47 +145,58 @@ if (dist(mouseX,mouseY, windowWidth/8,windowHeight/1.4)<50){
   text("healthy",700,400)
 }
 if (dist(mouseX,mouseY, windowWidth/8,windowHeight/1.1)<50){
-  text("healthy",700,400)
+  text("unhealthy",700,400)
 }
 if (dist(mouseX,mouseY, windowWidth/3.25,windowHeight/1.1)<50){
   text("healthy",700,400)
 }
 if (dist(mouseX,mouseY, windowWidth/3.25,windowHeight/1.4)<50){
-  text("healthy",700,400)
+  text("unhealthy",700,400)
 }
 if (dist(mouseX,mouseY, windowWidth/2,windowHeight/2)<50){
   text("healthy",700,400)
 }
 if (dist(mouseX,mouseY, windowWidth/2,windowHeight/8)<50){
-  text("healthy",700,400)
+  text("unhealthy",700,400)
 }
 if (dist(mouseX,mouseY, windowWidth/2,windowHeight/1.4)<50){
   text("healthy",700,400)
 }
-if (dist(mouseX,mouseY, windowWidth/2,windowHeight/8)<50){
+if (dist(mouseX,mouseY, windowWidth/2,windowHeight/1.1)<50){
   text("healthy",700,400)
 }
-if (dist(mouseX,mouseY, windowWidth/2,windowHeight/8)<50){
+if (dist(mouseX,mouseY, windowWidth/1.4,windowHeight/8)<50){
   text("healthy",700,400)
 }
-if (dist(mouseX,mouseY, windowWidth/2,windowHeight/8)<50){
+if (dist(mouseX,mouseY, windowWidth/1.4,windowHeight/2.99)<50){
   text("healthy",700,400)
 }
-if (dist(mouseX,mouseY, windowWidth/2,windowHeight/8)<50){
+if (dist(mouseX,mouseY, windowWidth/1.4,windowHeight/1.9)<50){
+  text("unhealthy",700,400)
+}
+if (dist(mouseX,mouseY, windowWidth/1.4,windowHeight/1.4)<50){
   text("healthy",700,400)
 }
-if (dist(mouseX,mouseY, windowWidth/2,windowHeight/8)<50){
+if (dist(mouseX,mouseY, windowWidth/1.1,windowHeight/8)<50){
   text("healthy",700,400)
 }
-if (dist(mouseX,mouseY, windowWidth/2,windowHeight/8)<50){
+if (dist(mouseX,mouseY, windowWidth/1.1,windowHeight/2.99)<50){
   text("healthy",700,400)
 }
-if (dist(mouseX,mouseY, windowWidth/2,windowHeight/8)<50){
+if (dist(mouseX,mouseY, windowWidth/1.1,windowHeight/1.9)<50){
   text("healthy",700,400)
 }
-if (dist(mouseX,mouseY, windowWidth/2,windowHeight/8)<50){
+if (dist(mouseX,mouseY, windowWidth/1.1,windowHeight/1.1)<50){
   text("healthy",700,400)
 }
+if (dist(mouseX,mouseY, windowWidth/1.1,windowHeight/1.4)<50){
+  text("healthy",700,400)
+}
+if (dist(mouseX,mouseY, windowWidth/2,windowHeight/2.99)<50){
+  text("healthy",700,400)
+}
+
+
 
 
 
