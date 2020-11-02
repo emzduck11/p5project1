@@ -50,7 +50,7 @@ function setup() {
 function draw() {
 background(300,50,120);
 
-image(cart1, windowWidth/2,windowHeight/2,400,400)
+image(cart1, windowWidth/2,windowHeight/2,600,600)
 image (avocado,windowWidth/5,windowHeight/2,300,400)
 image(bread, windowWidth/2,windowHeight/5,400,400)
 image(bananas, windowWidth/4,windowHeight/2,400,400)
