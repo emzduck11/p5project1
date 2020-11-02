@@ -80,14 +80,13 @@ function setup() {
   rectMode(CENTER);
   imageMode(CENTER);
 
-button = createButton(img alt)
 
 }
 
 function draw() {
 background(300,50,120);
 
-image(cart1, windowWidth/2,windowHeight/2,300,300)
+//image(cart1, windowWidth/2,windowHeight/2,300,300)
 image (avocado,windowWidth/8,windowHeight/8,120,120)
 image(bread, windowWidth/8,windowHeight/2.99,160,170)
 image(bananas, windowWidth/3.25,windowHeight/8,100,100)
@@ -99,10 +98,10 @@ image(kombucha, windowWidth/8,windowHeight/1.4,110,140)
 image(milk, windowWidth/8,windowHeight/1.1,110,110)
 image(oats, windowWidth/3.25,windowHeight/1.1,60,130)
 image(sourworms, windowWidth/3.25,windowHeight/1.4,80,110)
-image(alfedo, windowWidth/2,windowHeight/3.25,125,100)
+//image(alfedo, windowWidth/2,windowHeight/3.25,125,100)
 image(beans, windowWidth/2,windowHeight/2,110,100)
 image(broccoli, windowWidth/2,windowHeight/1.4,125,100)
-image(butter, windowWidth/2,windowHeight/2.99,125,100)
+//image(butter, windowWidth/2,windowHeight/2.99,125,100)
 image(carrots, windowWidth/2,windowHeight/1.1,125,100)
 image(cashews, windowWidth/1.4,windowHeight/8,125,100)
 image(chicken, windowWidth/1.4,windowHeight/2.99,125,110)
@@ -118,7 +117,7 @@ image(strawberries, windowWidth/2,windowHeight/2.99,125,100)
 }
 
 
-}
+
 if (dist(image(bread, windowWidth/2,windowHeight/5,400,400))<50){
   text ("unhealthy",500,400);
 
