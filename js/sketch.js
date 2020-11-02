@@ -35,12 +35,18 @@ strawberries= loadImage("images/strawberries.png");
 }
 function setup() {
 
-  createCanvas(500,500);
-  background(300,50,120);
+  createCanvas(windowWidth,windowHeight);
+
+  rectMode(CENTER);
+  imageMode(CENTER);
+
 
 
 }
 
 function draw() {
+background(300,50,120);
+
+image(cart1, windowWidth/2,windowHeight/2)
 
 }
