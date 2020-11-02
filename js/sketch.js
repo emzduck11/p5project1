@@ -1,6 +1,5 @@
 
-let mouseX = 0
-let mouseY= 0
+
 let ellipseX= 300
 let ellipsY= 200
 
@@ -114,12 +113,11 @@ image(honey, windowWidth/1.1,windowHeight/1.9,100,100)
 image(hummus, windowWidth/1.1,windowHeight/1.4,100,100)
 image(ketchup, windowWidth/1.1,windowHeight/1.1,70,130)
 image(strawberries, windowWidth/2,windowHeight/2.99,125,100)
-}
+
+print(dist(mouseX,mouseY,windowWidth/8,windowHeight/8));
 
 if (dist(mouseX,mouseY,windowWidth/8,windowHeight/8) < 50){
   text("unhealthy",120,120);
-
-
 }
 if (dist(mouseX,mouseY, windowWidth/4,windowHeight/2)<50){
   text("healthy",600,600);
