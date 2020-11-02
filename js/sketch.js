@@ -118,21 +118,71 @@ image(strawberries, windowWidth/2,windowHeight/2.99,125,100)
 
 print(dist(mouseX,mouseY,windowWidth/8,windowHeight/8));
 
+textSize(200);
+textAlign(CENTER);
 if (dist(mouseX,mouseY,windowWidth/8,windowHeight/8) < 50){
-  text("unhealthy",120,120);
+  text("unhealthy",700,400);
 
 }
-if (dist(mouseX,mouseY, windowWidth/4,windowHeight/2)<50){
-  text("healthy",600,600);
+if (dist(mouseX,mouseY, windowWidth/8,windowHeight/2.99)<50){
+  text("healthy",700,400);
 }
-if (dist(mouseX,mouseY,windowWidth/6,windowHeight/2)<50){
-  text("unhealthy",700,700);
+if (dist(mouseX,mouseY,windowWidth/3.25,windowHeight/8)<50){
+  text("unhealthy",700,400);
 }
-if (dist(mouseX,mouseY, windowWidth/2,windowHeight/6)<50){
-  text("unhealthy",100,100);
+if (dist(mouseX,mouseY, windowWidth/8,windowHeight/1.9)<50){
+  text("unhealthy",700,400);
 }
-if (dist(mouseX,mouseY, windowWidth/4,windowHeight/2)<50){
-  text("healthy",50,50)
+if (dist(mouseX,mouseY, windowWidth/3.25,windowHeight/2)<50){
+  text("healthy",700,400)
+}
+if (dist(mouseX,mouseY, windowWidth/3.25,windowHeight/2.99)<50){
+  text("healthy",700,400)
+}
+if (dist(mouseX,mouseY, windowWidth/8,windowHeight/1.4)<50){
+  text("healthy",700,400)
+}
+if (dist(mouseX,mouseY, windowWidth/8,windowHeight/1.1)<50){
+  text("healthy",700,400)
+}
+if (dist(mouseX,mouseY, windowWidth/3.25,windowHeight/1.1)<50){
+  text("healthy",700,400)
+}
+if (dist(mouseX,mouseY, windowWidth/3.25,windowHeight/1.4)<50){
+  text("healthy",700,400)
+}
+if (dist(mouseX,mouseY, windowWidth/2,windowHeight/2)<50){
+  text("healthy",700,400)
+}
+if (dist(mouseX,mouseY, windowWidth/2,windowHeight/8)<50){
+  text("healthy",700,400)
+}
+if (dist(mouseX,mouseY, windowWidth/2,windowHeight/1.4)<50){
+  text("healthy",700,400)
+}
+if (dist(mouseX,mouseY, windowWidth/2,windowHeight/8)<50){
+  text("healthy",700,400)
+}
+if (dist(mouseX,mouseY, windowWidth/2,windowHeight/8)<50){
+  text("healthy",700,400)
+}
+if (dist(mouseX,mouseY, windowWidth/2,windowHeight/8)<50){
+  text("healthy",700,400)
+}
+if (dist(mouseX,mouseY, windowWidth/2,windowHeight/8)<50){
+  text("healthy",700,400)
+}
+if (dist(mouseX,mouseY, windowWidth/2,windowHeight/8)<50){
+  text("healthy",700,400)
+}
+if (dist(mouseX,mouseY, windowWidth/2,windowHeight/8)<50){
+  text("healthy",700,400)
+}
+if (dist(mouseX,mouseY, windowWidth/2,windowHeight/8)<50){
+  text("healthy",700,400)
+}
+if (dist(mouseX,mouseY, windowWidth/2,windowHeight/8)<50){
+  text("healthy",700,400)
 }
 
 
