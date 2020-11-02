@@ -20,8 +20,8 @@ let strawberries;
 
 
 function preload(){
-  cart = loadImage("../images/cart.png" );
-  sourworms = loadImage("../images/sourworms.png" );
+  cart = loadImage("/images/cart.png" );
+  sourworms = loadImage("/images/sourworms.png" );
   kombucha = loadImage ( "images/kombucha.png" );
   icecream = loadImage ("images/icecream.png"  );
   chips= loadImage ("images/chips.png"  ) ;
@@ -52,7 +52,7 @@ ellipseY= random(ellipsY,windowHeight);
 function draw() {
 background(180,40,130)
 
-}
+
 image(cart, windowWidth/2, windowHeight/2,300,300);
 image(sourworms,windowWidth/5,windowHeight/5,75,100);
 image(kombucha,windowWidth/2,windowHeight/2,75,100);
