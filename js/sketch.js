@@ -80,7 +80,7 @@ function setup() {
   rectMode(CENTER);
   imageMode(CENTER);
 
-
+button = createButton(img alt)
 
 }
 
@@ -93,17 +93,31 @@ image(bread, windowWidth/8,windowHeight/2.99,160,170)
 image(bananas, windowWidth/3.25,windowHeight/8,100,100)
 image(burritos, windowWidth/8,windowHeight/1.9,90,90)
 image(chips, windowWidth/2,windowHeight/8,90,100)
-image(eggs, windowWidth/3.25,windowHeight/1.9,130,100)
+image(eggs, windowWidth/3.25,windowHeight/2,140,100)
 image(icecream, windowWidth/3.25,windowHeight/2.99,90,110)
 image(kombucha, windowWidth/8,windowHeight/1.4,110,140)
 image(milk, windowWidth/8,windowHeight/1.1,110,110)
 image(oats, windowWidth/3.25,windowHeight/1.1,60,130)
 image(sourworms, windowWidth/3.25,windowHeight/1.4,80,110)
+image(alfedo, windowWidth/2,windowHeight/3.25,125,100)
+image(beans, windowWidth/2,windowHeight/2,110,100)
+image(broccoli, windowWidth/2,windowHeight/1.4,125,100)
+image(butter, windowWidth/2,windowHeight/2.99,125,100)
+image(carrots, windowWidth/2,windowHeight/1.1,125,100)
+image(cashews, windowWidth/1.4,windowHeight/8,125,100)
+image(chicken, windowWidth/1.4,windowHeight/2.99,125,110)
+image(cinnamonbread, windowWidth/1.4,windowHeight/1.9,125,100)
+image(coffee, windowWidth/1.4,windowHeight/1.4,100,120)
+image(coke, windowWidth/1.4,windowHeight/1.1,125,100)
+image(cucumber, windowWidth/1.1,windowHeight/8,125,50)
+image(granola, windowWidth/1.1,windowHeight/2.99,100,125)
+image(honey, windowWidth/1.1,windowHeight/1.9,100,100)
+image(hummus, windowWidth/1.1,windowHeight/1.4,100,100)
+image(ketchup, windowWidth/1.1,windowHeight/1.1,70,130)
 image(strawberries, windowWidth/2,windowHeight/2.99,125,100)
 }
 
-if(dist(windowWidth/8,windowHeight/8,80,80)<50){
-text(" healthy",200,300);
+
 }
 if (dist(image(bread, windowWidth/2,windowHeight/5,400,400))<50){
   text ("unhealthy",500,400);
