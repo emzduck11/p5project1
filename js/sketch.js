@@ -121,16 +121,16 @@ if (dist(mouseX,mouseY,windowWidth/8,windowHeight/8) < 50){
 
 
 }
-if (dist(image(bananas, windowWidth/4,windowHeight/2,400,400))<50){
+if (dist(mouseX,mouseY, windowWidth/4,windowHeight/2)<50){
   text("healthy",600,600);
 }
-if (dist(image(burritos, windowWidth/6,windowHeight/2,400,400))<50){
+if (dist(mouseX,mouseY,windowWidth/6,windowHeight/2)<50){
   text("unhealthy",700,700);
 }
-if (dist(image(chips, windowWidth/2,windowHeight/6,400,400))<50){
+if (dist(mouseX,mouseY, windowWidth/2,windowHeight/6)<50){
   text("unhealthy",100,100);
 }
-if (dist(image(eggs, windowWidth/4,windowHeight/2,400,400))<50){
+if (dist(mouseX,mouseY, windowWidth/4,windowHeight/2)<50){
   text("healthy",50,50)
 }
 
